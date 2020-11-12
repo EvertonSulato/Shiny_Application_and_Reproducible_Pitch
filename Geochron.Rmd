@@ -1,0 +1,51 @@
+---
+title: "Geochron"
+author: "ETSulato"
+date: "12/11/2020"
+output: ioslides_presentation
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## About the App
+
+Use the **𝔾𝕖𝕠𝕔𝕙𝕣𝕠𝕟** app to determine the age (in years) of geological samples.
+
+Set the Uranium (U), Thorium (Th) and Helium (He) concentration by inserting the value or moving the sliderbar.
+
+<img src="image_sliderbar.png" title="App" alt="App" width="40%" style="display: block; margin: auto;" />
+
+The age result is shown on the display.
+
+<img src="image_display.png" title="App" alt="App" width="30%" style="display: block; margin: auto;" />
+
+## Isotopic Age
+
+Alpha particles are produced during the spontaneous desintegration of the ²³⁸U, ²³⁵U, and ²³²Th series radionuclides.
+
+After capturing 2 electrons, these particles (alpha + 2e) form the Helium gas, which can accumulate over time.
+
+<img src="image_1.png" title="App" alt="App" width="65%" style="display: block; margin: auto;" />
+
+## Use the App Online
+
+The **𝔾𝕖𝕠𝕔𝕙𝕣𝕠𝕟** application allows for a quick obtaining of the age from the concentrations of U-Th/He analyses.
+
+The app is available online. There is no need to install it.
+
+<img src="image_app.png" title="App" alt="App" width="100%" style="display: block; margin: auto;" />
+
+## Source codes
+
+Please, refer to the link below for the source code for ui.R and server.R files.
+
+[GitHub repository](https://github.com/EvertonSulato/Shiny_Application_and_Reproducible_Pitch)
+
+This app was created as a project during the Data Product course from Coursera.
+
+**Thank you**
+
+<img src="image_2.png" title="App" alt="App" width="30%" style="display: block; margin: auto;" />
